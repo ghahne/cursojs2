@@ -12,3 +12,4 @@ console.log(valores.pop())
 delete valores[0]
 
 console.log(typeof valores)
+console.log(typeof number)
