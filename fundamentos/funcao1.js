@@ -16,3 +16,9 @@ function soma(a, b = 1) {
 
 console.log(soma(2, 3))
 console.log(soma(2))
+
+function multiplicacao(n) {
+    return n*n
+}
+
+console.log(multiplicacao(7))
