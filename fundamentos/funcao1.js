@@ -22,3 +22,4 @@ function multiplicacao(n) {
 }
 
 console.log(multiplicacao(7))
+
