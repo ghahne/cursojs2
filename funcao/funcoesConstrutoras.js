@@ -20,11 +20,11 @@ const uno = new Carro
 uno.acelerar()
 console.log(uno.getVelocidadeAtual())
 
-const ferrari = new Carro(350, 20)
-ferrari.acelerar()
-ferrari.acelerar()
-ferrari.acelerar()
-console.log(ferrari.getVelocidadeAtual())
+const unoEscadaTeto = new Carro(350, 20)
+unoEscadaTeto.acelerar()
+unoEscadaTeto.acelerar()
+unoEscadaTeto.acelerar()
+console.log(unoEscadaTeto.getVelocidadeAtual())
 
 console.log(typeof Carro)
-console.log(typeof ferrari)
+console.log(typeof unoEscadaTeto)
