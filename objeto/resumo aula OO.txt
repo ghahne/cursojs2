@@ -1,0 +1,24 @@
+Orientação a objeto surge de uma interpretação do mundo real abstraida para sistemas;
+
+Antes dessas orientações se usava muito "goto (palavra reservada)" como uma estrutura de controle, saltando de trechos de código para blocos de códigos e 
+REUTILIZANDO POUCO CÓDIGO (isso é um código não ESTRUTURADO);
+
+Reutilizar códigos faz muito mais sentido dentro de uma linguagem ESTRUTURADA;
+
+O paradigma de orientação a OBJETO está dentro do "guarda chuva" de linguagens ESTRUTURADAS;
+
+Orientação procedural é uma função recebendo dados, OO é um dado personalizado recebendo funções
+por exemplo;
+
+4 conceitos importantes da OO é abstração, herança, polimorfismo e encapslumanto;
+
+É importante abstrair para entender como fazer e pensar sistemas (lembrar do exemplo do carro
+no sistema do DETRAN e no sistema de uma oficina mecânica, você deve pensar o Objeto carro de 
+formas distintas nos 2 cenários apesar de ser o mesmo objeto);
+
+Encapsulamento se refere a esconder detalhes da implementação de objetos para não serem acessíveis 
+em "interfaces externas" e não gerar ALTO GRAU DE ACOPLAMENTO* (toda aplicação tem um grau de acoplamento mas ser alto é ruim)
+ACOPLAMENTO: objetos que interagem entre si;
+
+Herança se refere a objetos mais complexos sendo afunilados em objetos mais simples, exemplo: Um CARRO, tem um MOTOR, esse motor tem
+VÁLVULAS, essas valvulas tem PARAFUSOS, esses parafusos são pretos;
