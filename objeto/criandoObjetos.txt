@@ -1,0 +1,20 @@
+javascript no browser só tem 3 níveis de escopo:
+
+Escopo global, de função e de bloco de código através de várias definidas com LET ou CONST;
+
+Podemos usar a palavra reservada "this" com "." para tornar algo público, como por exemplo 
+um atributo de um objeto (this.nome = "guilherme");
+
+No NODE temos 4 escopos: Escopo global, escopo de módulo (module, o arquivo), escopo de função e
+o escopo de bloco com as variaveis definidas com let ou const;
+
+Antigamente no JS browser você só tinha o escopo global (window) e o escopo de função;
+
+Uma função construtora para criar objetos não é muito diferente de usar um new Object, a diferença
+é que é uma função sua com o nome que você quer e etc, já new Object é do JS;
+
+Podemos transformar JSON em Objeto e acessar ele como Objeto mesmo uma vez que ele foi convertido;
+const fromJSON = JSON.parse('{"info": "Sou um JSON"}')
+console.log(fromJSON.info)
+
+Simplesmente usei .info para acessar o dado que queria ali pois já tinha convertido esse JSON em Objeto;
