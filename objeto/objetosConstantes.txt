@@ -1,0 +1,41 @@
+Objetos dentro de constantes ainda podem ter seus atributos alterados;
+
+as constantes tem ENDEREÇOS DE MEMÓRIA (um número hexadecimal esquisito), esse end de memória não
+pode ser alterado pois é para onde aquela constante em especifico "aponta". Já o conteúdo de um Obj
+que está armazenado nesse end de memória pode ser alterado.
+
+const pessoa = {
+   nome: 'Guilherme'
+}
+
+pessoa -> 123546 (end de memória) -> { nome: 'Guilherme'};
+
+pessoa faz referencia ao endereço e dentro do endereço se armazena as informações, portanto, o que
+não pode mudar é o endereço;
+
+existe um método .freeze que "blinda" o objeto e ele não pode mais ser alterado;
+
+Object.freeze(pessoa);
+
+com o código acima eu não poderia mais fazer isso por exemplo:
+
+pessoa.nome = 'Julia';
+
+o js simplesmente ignoraria o código;
+
+a diferença de const ou let nesse sentido é que const vai exigir uma declaração imdediata, tipo
+const pessoa = {};
+
+já let eu posso declarar e atribuir dps:
+
+let pessoa;
+
+Com const eu nao vou poder fazer algo como:
+
+const pessoa = {
+   nome: 'Guilherme'
+}
+
+pessoa = 'Julia';
+
+já com let eu posso.
