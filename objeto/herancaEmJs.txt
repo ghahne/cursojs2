@@ -1,0 +1,18 @@
+Herança em JS é uma CADEIA DE PROTÓTIPOS;
+
+O filho é um protótipo do pai que é um protótipo do vô que é um protótipo do bisavô;
+
+Existe um atributo dentro de TODOS os OBJETOS em js que se chama __proto__;
+
+JS vai tentar procurar um atributo que não existe no filho nos protótipos dele, ou seja, no pai, no vô e assim por diante;
+
+.prototype é para acessar o protótipo de uma FUNÇÃO;
+
+Object.prototype é um OBJETO, se imprimir no console você verá {};
+
+Não da pra usar .prototype como atributo de um OBJETO, assim como não da pra usar o atributo __proto__ em uma função;
+
+pessoa.prototype não funciona assim como Object.__proto__ também não, ambos serão null;
+
+
+
