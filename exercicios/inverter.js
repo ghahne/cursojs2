@@ -1,17 +1,15 @@
 
-const inverso = (a) => {
+const inverso = (dado) => {
 
-    const test = typeof a
+    const type = typeof dado
 
-    if(!test === 'boolean' || !test === 'number') {
-        return `Booleano ou número esperados, mas o parametro é do tipo ${test}`
-    } else if (test === 'boolean') {
-        return !a
+    if(type !== 'boolean' && type !== 'number') {
+        return `Booleano ou número esperados, mas o parametro é do tipo ${type}`
+    } else if (type === 'boolean') {
+        return !dado
     } else {
-        return a * -1
+        return dado * -1
     }
 }
 
-console.log(inverso('matheus vagabundo'))
-console.log(inverso(2))
-console.log(inverso(true))
+console.log(inverso(-2))
